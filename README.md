@@ -1,5 +1,5 @@
 # docker-arm-stress-ng
-Lightweight docker images for stress-ng (for Linux ARM 7/6)
+Lightweight docker images for stress-ng (for Linux ARM 64/7/6)
 
 ## stress-ng
 
