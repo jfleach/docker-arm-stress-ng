@@ -1,13 +1,13 @@
-FROM alpine:3.3
-
-MAINTAINER aurelien@derniercri.io
+FROM alpine AS builder
+RUN apk add build-base
+MAINTAINER jfleach@jfleach.com
 
 ENV PACKAGES make gcc musl-dev linux-headers
 
 RUN apk add --update $PACKAGES && \
   cd /root && \
-  wget http://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-0.03.11.tar.gz && \
-  tar -xzf stress-ng-0.03.11.tar.gz && \
+  wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/stress-ng/0.03.11-1/stress-ng_0.03.11.orig.tar.gz && \
+  tar -xzf stress-ng_0.03.11.orig.tar.gz && \
   cd stress-ng-0.03.11/ && \
   make install && \
   apk del $PACKAGES
