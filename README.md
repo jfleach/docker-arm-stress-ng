@@ -53,7 +53,7 @@ stress-ng: info: [1] vm              617536     15.02     17.25      1.87     41
 
 ## Docker hub
 
-[Repository](https://hub.docker.com/repository/docker/jfleach/docker-arm-stress-ng)
+[Repository](https://hub.docker.com/r/jfleach/docker-arm-stress-ng)
 
 ## License
 
