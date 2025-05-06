@@ -3,7 +3,7 @@ Lightweight docker images for stress-ng (for Linux ARM 64/7/6)
 
 ## stress-ng
 
-![stress-ng](http://kernel.ubuntu.com/~cking/stress-ng/stress-ng-small.png)
+<img src=./stress-ng.png width="100" height="100">
 
 The documentation is [here](http://kernel.ubuntu.com/~cking/stress-ng/)
 
