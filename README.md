@@ -5,11 +5,11 @@ Lightweight docker images for stress-ng (for Linux ARM 64/7/6)
 
 <img src=./stress-ng.png width="100" height="100">
 
-The documentation is [here](http://kernel.ubuntu.com/~cking/stress-ng/)
+[stress-ng Source Code and Documentation](hhttps://github.com/ColinIanKing/stress-ng)
 
-## Docker buildx instructions
+## Docker buildx Documentation
 
-The documentation is [here](https://community.arm.com/developer/tools-software/tools/b/tools-software-ides-blog/posts/getting-started-with-docker-for-arm-on-linux/)
+[Getting started with Docker for Arm](https://community.arm.com/developer/tools-software/tools/b/tools-software-ides-blog/posts/getting-started-with-docker-for-arm-on-linux/)
 
 ## Local build
 
